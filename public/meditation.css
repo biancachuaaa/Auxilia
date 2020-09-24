@@ -1,0 +1,48 @@
+body{
+    display: grid;
+    grid-template-columns: 365px 1fr 1fr;
+}
+
+main{
+    grid-column: 2/3;
+}
+
+.video-container{
+    background-color: #ECF9F2;
+    border-radius: 15px;
+    
+}
+
+.video-container:nth-child(1){
+    margin-top: 50px;
+}
+
+.video-container:not(:last-child){
+    margin-bottom: 90px;
+}
+
+.video-container:last-child{
+    margin-bottom: 50px;
+}
+
+.video-head{
+    padding-top: 20px;
+    margin-bottom: 15px;
+
+}
+
+.title{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 20px 10px;
+}
+
+.video-container iframe{
+    padding: 0px 0px 30px;
+}
+
+.desc{
+    font-size: 20px;
+    padding: 5px 20px 0px;
+}
